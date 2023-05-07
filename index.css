@@ -38,6 +38,7 @@ main:hover {
   font-size: 3rem;
   background: linear-gradient(110deg, #7b0afd, #00fff0);
   color: transparent;
+  -webkit-background-clip: text;
   background-clip: text;
   font-weight: lighter;
 }
@@ -106,5 +107,6 @@ main:hover {
   font-size: 1.2rem;
   background: linear-gradient(110deg, #af69ff, #3af7ea);
   color: transparent;
-  background-clip::-webkit-background-clip: text;
+  -webkit-background-clip: text;
+  background-clip: text;
 }
