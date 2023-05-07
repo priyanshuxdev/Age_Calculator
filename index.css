@@ -106,5 +106,5 @@ main:hover {
   font-size: 1.2rem;
   background: linear-gradient(110deg, #af69ff, #3af7ea);
   color: transparent;
-  background-clip: text;
+  background-clip::-webkit-background-clip: text;
 }
